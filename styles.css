@@ -137,6 +137,7 @@ nav ul {
   display: flex;
   justify-content: start;
   list-style: none;
+  color: white;
 }
 .marathon-details {
   width: 30%;
