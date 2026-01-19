@@ -1,0 +1,215 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+/* FONTS, BASE RELATIVE MEASUREMENTS */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  /* background-color: rgb(13, 16, 37); */
+  background-color: #0b0f19;
+  height: 120vh;
+}
+nav {
+  padding-top: 6rem;
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  display: flex;
+  gap: 1rem;
+}
+.logo-p {
+  align-self: center;
+  color: rgb(27, 27, 160);
+  color: white;
+}
+.logo-img {
+  font-size: 2rem;
+  color: white;
+  background-color: blue;
+  padding: 1rem;
+  border-radius: 1.2rem;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2.4rem;
+  font-size: 1.6rem;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item {
+  cursor: pointer;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.nav-item-8 a {
+  color: aqua;
+  text-align: center;
+}
+.nav-item a:hover {
+  color: aqua;
+}
+.nav-item-8 a:hover {
+  color: white;
+}
+.nav-item-9 {
+  border: 1px solid rgba(255, 255, 255, 0.089);
+  padding: 0.5rem;
+  background-color: rgba(42, 48, 94, 0.723);
+}
+.nav-item-9:hover {
+  background-color: gray;
+}
+.nav-item-9 a:hover {
+  color: white;
+}
+
+/* Header Section */
+.header-section {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.heading {
+  width: 40%;
+}
+.heading h1 {
+  font-size: 6rem;
+  font-weight: 900;
+}
+.heading h1:nth-child(1) {
+  color: white;
+}
+.heading h1:nth-child(2) {
+  color: #2f66f5;
+}
+.heading h4 {
+  font-size: large;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+.header-btns button {
+  font-size: large;
+  font-weight: 900;
+  padding: 1.6rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  border: none;
+}
+.header-btn-1 {
+  margin-right: 1rem;
+  background-color: #2f66f5;
+  color: white;
+  cursor: pointer;
+}
+.header-btn-1:hover {
+  background-color: #2557d6;
+  transform: scale(1.05);
+}
+.header-btn-2 {
+  background-color: #131620;
+  color: white;
+}
+.header-btn-2:hover {
+  background-color: #15182199;
+  transform: scale(1.05);
+}
+.fa-features {
+  padding: 1.6rem;
+  margin-left: 1rem;
+}
+.features {
+  display: flex;
+  justify-content: start;
+  list-style: none;
+}
+.marathon-details {
+  width: 30%;
+  border: 1px solid rgb(34, 33, 33);
+  padding: 4rem;
+  border-radius: 1.2rem;
+  background-color: #131620;
+}
+.marathon-details > h5 {
+  font-size: large;
+  margin-bottom: 1rem;
+  color: white;
+}
+.marathon-details > p {
+  font-size: 1.6rem;
+  font-weight: 200;
+  margin-bottom: 2.4rem;
+  color: white;
+}
+.marathon-details ul {
+  list-style: none;
+}
+.marathon-details li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  /* color: white; */
+}
+.fa-marathon-details {
+  font-size: x-large;
+  background-color: gray;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+.marathon-details-p {
+  font-size: 1.2rem;
+  color: rgb(70, 70, 70);
+  color: white;
+}
+.marathon-details-h5 {
+  font-size: 1.6rem;
+  color: white;
+}
+.marathon-details-line {
+  margin-top: 4rem;
+}
+.large-btn {
+  margin-top: 4rem;
+  display: flex;
+  gap: 2rem;
+  /* border: 1px gray solid; */
+  padding: 2rem;
+  border-radius: 0.8rem;
+  color: white;
+  background-color: #1f283b;
+}
+.large-btn > button {
+  padding: 0.8rem;
+  border-radius: 50%;
+  background-color: #2f66f5;
+  color: white;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+}
+.large-btn-text > h5 {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.fa-large-btn {
+  margin-left: 2rem;
+}
